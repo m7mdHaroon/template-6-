@@ -1,0 +1,114 @@
+body 
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+html 
+{
+    scroll-behavior: smooth ;
+}
+header  
+{
+    background-color : rgba(0,0,0,.5) !important ;
+}
+/* you can make the hover by Java Script by the method of addClassName */
+
+.section2 .ratio 
+{
+    position : absolute ;
+    background-color : #444 ;
+    color : #fff ;
+    font-size : 15px ;
+    padding : 2px 5px ;
+}
+.section2 
+{
+    color  : #444 ;
+}
+.section2 .per
+{
+    height : 7px ;
+    width : 100% ;
+    background-color : #f0f0f0 ;
+    margin-top : 5px ;
+    overflow : auto ;
+}
+.section2 h6 
+{
+    color : #333 ;
+}
+.section2 span::after
+{
+    content : " " ;
+     height : 50% ;
+     width : 40% ;
+     top : 100% ;
+     right : 30% ;
+     position : absolute;
+     border-right  : solid 7px transparent   ;
+     border-left  : solid 7px transparent  ;
+     border-top : solid 7px #444  ;
+}
+
+.section2 .per1
+{
+    background-color : #444 ;
+    width : 60% ;
+    height: 100% ;
+    border-radius : 5px ; 
+}
+.section2 .per2
+{
+    background-color : #444 ;
+    width : 75% ;
+    height: 100% ;
+    border-radius : 5px ; 
+}
+.section2 .per3
+{
+    background-color : #444 ;
+    width : 90% ;
+    height: 100% ;
+    border-radius : 5px ; 
+}
+.section2 .ratio1 
+{
+    right  : 40% ;
+}
+.section2 .ratio2 
+{
+
+    left  : 65% ;
+}
+.section2 .ratio3 
+{
+    left  : 80% ;
+}
+.section3 .icon 
+{
+    font-size : 70px ;
+    color : #444 ;
+}
+.section3 h3 
+{
+    color : #444 ;
+    font-weight : 100 ;
+    line-height : 15px ;
+    padding  : 10px 0px ;
+    letter-spacing  : 1px ; 
+}
+.section3 .layer 
+{
+    transition : all .3s ease ;
+}
+.section3 
+{
+    background-color : #f0f0f0 ;
+}
+.section3 .layer 
+{
+    background-color: #fff ;
+}
+.section3 p 
+{
+    font-size : 14px ;
+}
